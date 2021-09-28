@@ -1,4 +1,31 @@
-Installation:
+
+## Scenario: Purchase mattress 
+Given: user navigates to https://www.levelsleep.com
+
+When: user clicks on “shop mattress” button
+And: user clicks on “Add to Cart” button
+And: user fills out the required fields on “shipping” step
+And: user click on “continue to billing” button
+
+Then: user has been presented with the billing step and “review purchase” button exists
+
+
+## Tasks
+
+Write the script representing the Scenario above
+
+Please screenshot and save the result of Then
+
+Bonus > think about how to proceed to the next step (don’t use the real credit card) , implement it and screenshot and save it.
+
+Create a Repository by any Public GIT Portals (GitHub, GitLab, etc)
+
+Provide instructions on how to execute tests (please include README file).
+
+Provide a simple tool for results review 
+
+## Installation:
+
 tested under Node 12 and Node 14
 allure2 is used as report generation tool
 installed from https://github.com/allure-framework/allure2/releases/tag/2.15.0
