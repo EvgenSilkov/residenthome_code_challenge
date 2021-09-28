@@ -47,7 +47,7 @@ NOTES:
 
 - advertisement/sales popup isn't handled properly.
   The best way to handle it is to look into trigger, and disable/trigger it intentionally.
-  Wrapping each and every interaction with a
+  Wrapping each and every interaction with a check-presence-handler seems unresonable
 
 - SkipDownstreamTests in test.environment.js doesn't work with allure.
   It was supposed to skip downstream tests when the first one had failed.
